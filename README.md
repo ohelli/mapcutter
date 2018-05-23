@@ -3,7 +3,7 @@
 A simple command line tool for clipping large amounts of shapefiles to a given bounds.
 This tool is needed if a group shapefiles cover a large area and need to be clipped to the exact same bounds, f.e. a country needs to be clipped to a specific city.  
 
-![Bildschirmfoto_2018-03-14_um_20.24.24](/uploads/11281bf45356734c871c848b1f7eda56/Bildschirmfoto_2018-03-14_um_20.24.24.png)
+![mapcutter](mapcutter.png)
 
 ## Installation
 
@@ -21,5 +21,5 @@ This tool is needed if a group shapefiles cover a large area and need to be clip
 ## Getting Map Bounds for Locations
 To get the bounds needed for clipping shapefiles:
 1. visit https://boundingbox.klokantech.com.
-1. Enter your city/region and use the Dublin Core format values at the bottom in the following order:
+1. Enter your city/region and use the **CSV RAW** format values at the bottom in the following order:
 <pre> mapmaker -b= [westlimit,southlimit,eastlimit,northlimit] </pre>
